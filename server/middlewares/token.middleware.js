@@ -11,8 +11,9 @@ const tokenDecode = (req) => {
 
       return jsonwebtoken.verify(token, process.env.TOKEN_SECRET);
     }
+
     return false;
-  } catch (error) {
+  } catch {
     return false;
   }
 };

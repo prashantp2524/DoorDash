@@ -18,8 +18,15 @@ const signup = async (req, res) => {
     user.setPassword(password);
 
     await user.save();
+    const token = jsonwebtoken.sign(
+      { data: user.id },
+      process.env.TOKEN_SECRET,
+      { expiresIn: "24h" }
+    );
     responseHandler.created(res, {
-      user,
+      token,
+      ...user._doc,
+      id: user.id,
     });
     // console.log(user);
   } catch (error) {
@@ -29,11 +36,11 @@ const signup = async (req, res) => {
 
 const signin = async (req, res) => {
   try {
-    const { username, password } = req.body;
+    const { email, password } = req.body;
 
     const user = await userModel
-      .findOne({ username })
-      .select("username password salt id displayName");
+      .findOne({ email })
+      .select("emailpassword salt id displayName");
 
     if (!user) return responseHandler.badrequest(res, "User not exist");
 
