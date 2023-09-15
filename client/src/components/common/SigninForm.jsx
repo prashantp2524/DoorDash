@@ -18,8 +18,8 @@ const SigninForm = ({ switchAuthState }) =>
 
     const signinForm = useFormik({
         initialValues: {
-            password: "",
-            email: ""
+            email: "",
+            password: ""
         },
         validationSchema: Yup.object({
             email: Yup.string()
