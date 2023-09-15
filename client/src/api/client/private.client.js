@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "door-dash-seven.vercel.app/api/v1/";
+const baseURL = "https://door-dash-seven.vercel.app/api/v1/";
 
 const privateClient = axios.create({
   baseURL,
