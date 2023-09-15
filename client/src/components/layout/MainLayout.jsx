@@ -10,6 +10,11 @@ import { toast } from 'react-toastify'
 import userApi from '../../api/modules/user.api';
 import { useEffect } from 'react';
 import { setUser } from '../../redux/features/userSlice';
+import CardContainer from '../common/CardContainer';
+import ImageContainer from '../common/ImageContainer';
+import Card2Container from '../common/Card2Container';
+
+
 const MainLayout = () =>
 {
 
@@ -48,13 +53,16 @@ const MainLayout = () =>
                     flexGrow={1}
                     overflow="hidden"
                     minHeight="100vh"
+
                 >
                     <Outlet />
                 </Box>
                 {/* main */}
             </Box>
-
             {/* footer */}
+            <CardContainer />
+            <ImageContainer />
+            <Card2Container />
             <Footer />
             {/* footer */}
         </>

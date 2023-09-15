@@ -59,7 +59,7 @@ const signin = async (req, res) => {
   }
 };
 
-const updatePassword = async (re1, res) => {
+const updatePassword = async (req, res) => {
   try {
     const { password, newPassword } = req.body;
 

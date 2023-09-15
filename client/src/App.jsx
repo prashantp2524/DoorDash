@@ -1,6 +1,5 @@
 import { ThemeProvider } from "@mui/material/styles";
 import themeConfigs from "./configs/theme.configs";
-// import Logo from "./components/common/Logo";
 import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import CssBaseline from "@mui/material/CssBaseline";

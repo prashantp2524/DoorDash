@@ -13,7 +13,7 @@ import Logo from "./Logo";
 
 import Sidebar from "./Sidebar";
 import UserMenu from "./UserMenu";
-import DashboardMenu from "./DashboardMenu";
+
 
 const ScrollAppBar = ({ children, window }) =>
 {
@@ -103,14 +103,18 @@ const Topbar = () =>
             {/* main menu */}
 
             {/* user menu */}
-            <Stack spacing={3} direction="row" alignItems="center">
+
+            <Stack spacing={3} direction="row" alignItems="center" marginX={1}>
               {!user && <Button
                 variant="contained"
                 onClick={() => dispatch(setAuthModalOpen(true))}
               >
                 sign in
               </Button>}
+
             </Stack>
+
+
             {user && <UserMenu />}
             {/* user menu */}
           </Toolbar>

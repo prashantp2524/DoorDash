@@ -1,5 +1,4 @@
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import DashboardIcon from "@mui/icons-material/Dashboard";
 
 import LockResetOutlinedIcon from "@mui/icons-material/LockResetOutlined";
 
@@ -9,12 +8,6 @@ const main = [
     path: "/",
     icon: <HomeOutlinedIcon />,
     state: "home",
-  },
-  {
-    display: "dashboard",
-    path: "/dashboard",
-    icon: <DashboardIcon />,
-    state: "dashboard",
   },
 ];
 
@@ -27,27 +20,6 @@ const user = [
   },
 ];
 
-const dashboardmenu = [
-  {
-    display: "projects",
-    path: "/projects",
-    icon: <HomeOutlinedIcon />,
-    state: "projects",
-  },
-  {
-    display: "quizes",
-    path: "/quizes",
-    icon: <HomeOutlinedIcon />,
-    state: "quizes",
-  },
-  {
-    display: "casestudies",
-    path: "/casestudies",
-    icon: <HomeOutlinedIcon />,
-    state: "casestudies",
-  },
-];
-
-const menuConfigs = { main, user, dashboardmenu };
+const menuConfigs = { main, user };
 
 export default menuConfigs;
