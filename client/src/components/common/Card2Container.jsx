@@ -66,12 +66,12 @@ const Card2Container = () =>
 
                         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} >
 
-                            <Typography fontWeight="800" fontSize="2rem" textAlign={'center'} padding={1}>
+                            <Typography fontWeight="700" fontSize="2rem" textAlign={'center'} >
                                 Return packages from home
                             </Typography>
 
 
-                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1} marginBottom={1}>
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1} >
                                 Request a package pickup with just a few taps and get your returns dropped off at carriers like UPS, FedEx, and USPS.
                             </Typography>
                             <Button variant="contained" mt={2}>Try package pickup</Button>
@@ -81,12 +81,12 @@ const Card2Container = () =>
 
                         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} >
 
-                            <Typography fontWeight="800" fontSize="2rem" textAlign={'center'} padding={1}>
+                            <Typography fontWeight="700" fontSize="2rem" textAlign={'center'} padding={1}>
                                 Back to school shopping
                             </Typography>
 
 
-                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1} marginBottom={1}>
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1} >
                                 From school snacks to notebooks, find everything on your back to school list.
                             </Typography>
                             <Button variant="contained" mt={2}>Shop Now</Button>
@@ -126,7 +126,7 @@ const Card2Container = () =>
 
                         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} >
 
-                            <Typography fontWeight="800" fontSize="2rem" textAlign={'center'} padding={1}>
+                            <Typography fontWeight="700" fontSize="2rem" textAlign={'center'} padding={1}>
                                 Restock the minibar
                             </Typography>
 
@@ -162,7 +162,7 @@ const Card2Container = () =>
             {/* ====================================================================== */}
             <Container>
                 <Box display={'flex'} justifyContent={'center'}  >
-                    <Typography fontWeight="800" fontSize="2.5rem" textAlign={'center'} >
+                    <Typography fontWeight="700" fontSize="2.5rem" textAlign={'center'} >
                         Unlocking opportunity for Dashers and businesses
                     </Typography>
                 </Box>
@@ -171,11 +171,11 @@ const Card2Container = () =>
 
                         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'}>
 
-                            <Typography fontWeight="800" fontSize="2rem" textAlign={'center'} padding={1}>
+                            <Typography fontWeight="700" fontSize="2rem" textAlign={'center'} padding={1}>
                                 Sign up to dash and get paid
                             </Typography>
 
-                            <Typography fontWeight="400" fontSize="1.2rem" textAlign={'center'} margin={2}>
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1}>
                                 Deliver with the #1 Food and Drink App in the U.S., set your own schedule, and start earning cash anytime, anywhere.
                             </Typography>
 
@@ -215,7 +215,7 @@ const Card2Container = () =>
                                 Grow your business with DoorDash
                             </Typography>
 
-                            <Typography fontWeight="400" fontSize="1.2rem" textAlign={'center'} margin={2}>
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1}>
                                 Businesses large and small partner with DoorDash to reach new customers, increase order volume, and drive more sales.
                             </Typography>
 

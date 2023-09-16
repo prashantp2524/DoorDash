@@ -17,10 +17,10 @@ const CardContainer = () =>
                             <Typography fontWeight="700" fontSize="2rem" textAlign={'center'}>
                                 Become a Dasher
                             </Typography>
-                            <Typography fontWeight="400" fontSize="1.2rem" textAlign={'center'} >
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} >
                                 As a delivery driver, you'll make reliable money—working anytime, anywhere.
                             </Typography>
-                            <Button variant="text">Start learning <ArrowRightAltIcon /></Button>
+                            <Button variant="text" fontWeight="500" >Start learning <ArrowRightAltIcon /></Button>
                         </Box>
                     </Grid>
                     <Grid item padding={2} xs={11} md={3} sm={10}>
@@ -30,10 +30,10 @@ const CardContainer = () =>
                             <Typography fontWeight="700" fontSize="2rem" textAlign={'center'} >
                                 Become a Partner
                             </Typography>
-                            <Typography fontWeight="400" fontSize="1.2rem" textAlign={'center'} >
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} >
                                 Grow your business and reach new customers by partnering with us.
                             </Typography>
-                            <Button variant="text">Sign up your store<ArrowRightAltIcon /></Button>
+                            <Button variant="text" fontWeight="500" >Sign up your store<ArrowRightAltIcon /></Button>
                         </Box>
                     </Grid>
                     <Grid item padding={2} xs={11} md={3} sm={10}>
@@ -43,10 +43,10 @@ const CardContainer = () =>
                             <Typography fontWeight="700" fontSize="2rem" textAlign={'center'}>
                                 Become a Dasher
                             </Typography>
-                            <Typography fontWeight="400" fontSize="1.2rem" textAlign={'center'} >
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} >
                                 As a delivery driver, you'll make reliable money—working anytime, anywhere.
                             </Typography>
-                            <Button variant="text">Get the app<ArrowRightAltIcon /></Button>
+                            <Button variant="text" fontWeight="500" >Get the app<ArrowRightAltIcon /></Button>
                         </Box>
                     </Grid>
                 </Grid>
@@ -58,14 +58,14 @@ const CardContainer = () =>
 
                         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'}>
 
-                            <Typography fontWeight="800" fontSize="2rem" textAlign={'center'}>
+                            <Typography fontWeight="700" fontSize="2rem" textAlign={'center'}>
                                 Everything you crave, delivered.
                             </Typography>
 
-                            <Typography fontWeight="400" fontSize="1.5rem" textAlign={'center'}>
+                            <Typography fontWeight="700" fontSize="1.5rem" textAlign={'center'} padding={1}>
                                 Your favorite local restaurants
                             </Typography>
-                            <Typography fontWeight="300" fontSize="1.2rem" textAlign={'center'} >
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1}>
                                 Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you've been meaning to try.
                             </Typography>
                             <Button variant="contained" mt={2}>Find restourant</Button>
@@ -96,12 +96,12 @@ const CardContainer = () =>
 
                         <Box display={'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'}>
 
-                            <Typography fontWeight="800" fontSize="2rem" textAlign={'center'}>
+                            <Typography fontWeight="700" fontSize="2rem" textAlign={'center'}>
                                 DashPass is delivery for less
                             </Typography>
 
 
-                            <Typography fontWeight="300" fontSize="1.2rem" textAlign={'center'} >
+                            <Typography fontWeight="500" fontSize="1.2rem" textAlign={'center'} padding={1}>
                                 Members get a $0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it's free for 30 days.
                             </Typography>
                             <Button variant="contained" mt={2}>Get DashPass</Button>
